@@ -68,6 +68,9 @@ int main(void)
   /* TIM Configuration */
   TIM_Config();
   
+
+  //add new test
+
   /* -----------------------------------------------------------------------
     TIM3 Configuration: Output Compare Timing Mode:
     
