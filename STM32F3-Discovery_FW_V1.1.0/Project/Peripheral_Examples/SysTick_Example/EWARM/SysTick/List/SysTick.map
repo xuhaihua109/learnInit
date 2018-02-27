@@ -1,0 +1,535 @@
+###############################################################################
+#
+# IAR ELF Linker V7.10.1.6676/W32 for ARM                 13/Sep/2017  16:46:27
+# Copyright 2007-2014 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\sw\STM32F303VC\Git_Repo\ST_discovery\STM32F3-Discovery_FW_V1.1.0\STM32F3-Discovery_FW_V1.1.0\Project\Peripheral_Examples\SysTick_Example\EWARM\SysTick\Exe\SysTick.out
+#    Map file     =  
+#        C:\sw\STM32F303VC\Git_Repo\ST_discovery\STM32F3-Discovery_FW_V1.1.0\STM32F3-Discovery_FW_V1.1.0\Project\Peripheral_Examples\SysTick_Example\EWARM\SysTick\List\SysTick.map
+#    Command line =  
+#        C:\sw\STM32F303VC\Git_Repo\ST_discovery\STM32F3-Discovery_FW_V1.1.0\STM32F3-Discovery_FW_V1.1.0\Project\Peripheral_Examples\SysTick_Example\EWARM\SysTick\Obj\app_cfg.o
+#        C:\sw\STM32F303VC\Git_Repo\ST_discovery\STM32F3-Discovery_FW_V1.1.0\STM32F3-Discovery_FW_V1.1.0\Project\Peripheral_Examples\SysTick_Example\EWARM\SysTick\Obj\main.o
+#        C:\sw\STM32F303VC\Git_Repo\ST_discovery\STM32F3-Discovery_FW_V1.1.0\STM32F3-Discovery_FW_V1.1.0\Project\Peripheral_Examples\SysTick_Example\EWARM\SysTick\Obj\os_core.o
+#        C:\sw\STM32F303VC\Git_Repo\ST_discovery\STM32F3-Discovery_FW_V1.1.0\STM32F3-Discovery_FW_V1.1.0\Project\Peripheral_Examples\SysTick_Example\EWARM\SysTick\Obj\os_cpu_a.o
+#        C:\sw\STM32F303VC\Git_Repo\ST_discovery\STM32F3-Discovery_FW_V1.1.0\STM32F3-Discovery_FW_V1.1.0\Project\Peripheral_Examples\SysTick_Example\EWARM\SysTick\Obj\os_cpu_c.o
+#        C:\sw\STM32F303VC\Git_Repo\ST_discovery\STM32F3-Discovery_FW_V1.1.0\STM32F3-Discovery_FW_V1.1.0\Project\Peripheral_Examples\SysTick_Example\EWARM\SysTick\Obj\os_dbg.o
+#        C:\sw\STM32F303VC\Git_Repo\ST_discovery\STM32F3-Discovery_FW_V1.1.0\STM32F3-Discovery_FW_V1.1.0\Project\Peripheral_Examples\SysTick_Example\EWARM\SysTick\Obj\os_flag.o
+#        C:\sw\STM32F303VC\Git_Repo\ST_discovery\STM32F3-Discovery_FW_V1.1.0\STM32F3-Discovery_FW_V1.1.0\Project\Peripheral_Examples\SysTick_Example\EWARM\SysTick\Obj\os_mbox.o
+#        C:\sw\STM32F303VC\Git_Repo\ST_discovery\STM32F3-Discovery_FW_V1.1.0\STM32F3-Discovery_FW_V1.1.0\Project\Peripheral_Examples\SysTick_Example\EWARM\SysTick\Obj\os_mem.o
+#        C:\sw\STM32F303VC\Git_Repo\ST_discovery\STM32F3-Discovery_FW_V1.1.0\STM32F3-Discovery_FW_V1.1.0\Project\Peripheral_Examples\SysTick_Example\EWARM\SysTick\Obj\os_mutex.o
+#        C:\sw\STM32F303VC\Git_Repo\ST_discovery\STM32F3-Discovery_FW_V1.1.0\STM32F3-Discovery_FW_V1.1.0\Project\Peripheral_Examples\SysTick_Example\EWARM\SysTick\Obj\os_q.o
+#        C:\sw\STM32F303VC\Git_Repo\ST_discovery\STM32F3-Discovery_FW_V1.1.0\STM32F3-Discovery_FW_V1.1.0\Project\Peripheral_Examples\SysTick_Example\EWARM\SysTick\Obj\os_sem.o
+#        C:\sw\STM32F303VC\Git_Repo\ST_discovery\STM32F3-Discovery_FW_V1.1.0\STM32F3-Discovery_FW_V1.1.0\Project\Peripheral_Examples\SysTick_Example\EWARM\SysTick\Obj\os_task.o
+#        C:\sw\STM32F303VC\Git_Repo\ST_discovery\STM32F3-Discovery_FW_V1.1.0\STM32F3-Discovery_FW_V1.1.0\Project\Peripheral_Examples\SysTick_Example\EWARM\SysTick\Obj\os_time.o
+#        C:\sw\STM32F303VC\Git_Repo\ST_discovery\STM32F3-Discovery_FW_V1.1.0\STM32F3-Discovery_FW_V1.1.0\Project\Peripheral_Examples\SysTick_Example\EWARM\SysTick\Obj\os_tmr.o
+#        C:\sw\STM32F303VC\Git_Repo\ST_discovery\STM32F3-Discovery_FW_V1.1.0\STM32F3-Discovery_FW_V1.1.0\Project\Peripheral_Examples\SysTick_Example\EWARM\SysTick\Obj\startup_stm32f30x.o
+#        C:\sw\STM32F303VC\Git_Repo\ST_discovery\STM32F3-Discovery_FW_V1.1.0\STM32F3-Discovery_FW_V1.1.0\Project\Peripheral_Examples\SysTick_Example\EWARM\SysTick\Obj\stm32f30x_gpio.o
+#        C:\sw\STM32F303VC\Git_Repo\ST_discovery\STM32F3-Discovery_FW_V1.1.0\STM32F3-Discovery_FW_V1.1.0\Project\Peripheral_Examples\SysTick_Example\EWARM\SysTick\Obj\stm32f30x_it.o
+#        C:\sw\STM32F303VC\Git_Repo\ST_discovery\STM32F3-Discovery_FW_V1.1.0\STM32F3-Discovery_FW_V1.1.0\Project\Peripheral_Examples\SysTick_Example\EWARM\SysTick\Obj\stm32f30x_misc.o
+#        C:\sw\STM32F303VC\Git_Repo\ST_discovery\STM32F3-Discovery_FW_V1.1.0\STM32F3-Discovery_FW_V1.1.0\Project\Peripheral_Examples\SysTick_Example\EWARM\SysTick\Obj\stm32f30x_rcc.o
+#        C:\sw\STM32F303VC\Git_Repo\ST_discovery\STM32F3-Discovery_FW_V1.1.0\STM32F3-Discovery_FW_V1.1.0\Project\Peripheral_Examples\SysTick_Example\EWARM\SysTick\Obj\stm32f3_discovery.o
+#        C:\sw\STM32F303VC\Git_Repo\ST_discovery\STM32F3-Discovery_FW_V1.1.0\STM32F3-Discovery_FW_V1.1.0\Project\Peripheral_Examples\SysTick_Example\EWARM\SysTick\Obj\system_stm32f30x.o
+#        --redirect _Printf=_PrintfSmall --redirect _Scanf=_ScanfSmall -o
+#        C:\sw\STM32F303VC\Git_Repo\ST_discovery\STM32F3-Discovery_FW_V1.1.0\STM32F3-Discovery_FW_V1.1.0\Project\Peripheral_Examples\SysTick_Example\EWARM\SysTick\Exe\SysTick.out
+#        --map
+#        C:\sw\STM32F303VC\Git_Repo\ST_discovery\STM32F3-Discovery_FW_V1.1.0\STM32F3-Discovery_FW_V1.1.0\Project\Peripheral_Examples\SysTick_Example\EWARM\SysTick\List\SysTick.map
+#        --config
+#        C:\sw\STM32F303VC\Git_Repo\ST_discovery\STM32F3-Discovery_FW_V1.1.0\STM32F3-Discovery_FW_V1.1.0\Project\Peripheral_Examples\SysTick_Example\EWARM\stm32f30x_flash.icf
+#        --semihosting --entry __iar_program_start --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x0803ffff] { ro };
+"P2":  place in [from 0x20000000 to 0x20007fff] { rw, block CSTACK, block HEAP };
+
+  Section            Kind        Address    Size  Object
+  -------            ----        -------    ----  ------
+"A1":                                      0x188
+  .intvec            ro code  0x08000000   0x188  startup_stm32f30x.o [1]
+                            - 0x08000188   0x188
+
+"P1":                                     0x1a4c
+  .text              ro code  0x08000188   0x830  os_core.o [1]
+  .text              ro code  0x080009b8    0xb8  os_cpu_c.o [1]
+  .text              ro code  0x08000a70    0x8a  os_flag.o [1]
+  .text              ro code  0x08000afa    0x2e  copy_init3.o [5]
+  .text              ro code  0x08000b28   0x16c  os_dbg.o [1]
+  CODE               ro code  0x08000c94    0xa0  os_cpu_a.o [1]
+  .text              ro code  0x08000d34    0xfc  os_time.o [1]
+  .text              ro code  0x08000e30   0x53c  os_task.o [1]
+  .text              ro code  0x0800136c   0x190  main.o [1]
+  .text              ro code  0x080014fc    0x78  stm32f3_discovery.o [1]
+  .text              ro code  0x08001574    0x60  os_sem.o [1]
+  .text              ro code  0x080015d4    0x24  stm32f30x_rcc.o [1]
+  .text              ro code  0x080015f8    0xa8  stm32f30x_gpio.o [1]
+  .text              ro code  0x080016a0   0x164  system_stm32f30x.o [1]
+  .rodata            const    0x08001804   0x100  os_core.o [1]
+  .text              ro code  0x08001904    0x28  data_init.o [5]
+  .text              ro code  0x0800192c    0x22  zero_init3.o [5]
+  .iar.init_table    const    0x08001950    0x24  - Linker created -
+  .text              ro code  0x08001974     0xe  stm32f30x_it.o [1]
+  .rodata            const    0x08001984    0x20  stm32f3_discovery.o [1]
+  .text              ro code  0x080019a4    0x1a  fpinit_M.o [4]
+  .rodata            const    0x080019be     0x2  os_dbg.o [1]
+  .text              ro code  0x080019c0    0x1a  cmain.o [5]
+  .text              ro code  0x080019da     0x4  low_level_init.o [3]
+  .text              ro code  0x080019de     0x4  exit.o [3]
+  .rodata            const    0x080019e2     0x2  os_dbg.o [1]
+  .text              ro code  0x080019e4     0xa  cexit.o [5]
+  .rodata            const    0x080019ee     0x2  os_dbg.o [1]
+  .text              ro code  0x080019f0    0x14  exit.o [6]
+  .rodata            const    0x08001a04    0x10  os_core.o [1]
+  .rodata            const    0x08001a14    0x10  os_core.o [1]
+  .rodata            const    0x08001a24    0x10  stm32f3_discovery.o [1]
+  .text              ro code  0x08001a34    0x10  startup_stm32f30x.o [1]
+  .text              ro code  0x08001a44     0xc  cstartup_M.o [5]
+  .rodata            const    0x08001a50     0x4  os_dbg.o [1]
+  .text              ro code  0x08001a54     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001a58     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001a5c     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001a60     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001a64     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001a68     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001a6c     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001a70     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001a74     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001a78     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001a7c     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001a80     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001a84     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001a88     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001a8c     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001a90     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001a94     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001a98     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001a9c     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001aa0     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001aa4     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001aa8     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001aac     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001ab0     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001ab4     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001ab8     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001abc     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001ac0     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001ac4     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001ac8     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001acc     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001ad0     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001ad4     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001ad8     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001adc     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001ae0     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001ae4     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001ae8     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001aec     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001af0     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001af4     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001af8     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001afc     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001b00     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001b04     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001b08     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001b0c     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001b10     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001b14     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001b18     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001b1c     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001b20     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001b24     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001b28     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001b2c     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001b30     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001b34     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001b38     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001b3c     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001b40     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001b44     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001b48     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001b4c     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001b50     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001b54     0x4  startup_stm32f30x.o [1]
+  .text              ro code  0x08001b58     0x4  startup_stm32f30x.o [1]
+  .rodata            const    0x08001b5c     0x2  os_dbg.o [1]
+  .rodata            const    0x08001b5e     0x2  os_dbg.o [1]
+  .rodata            const    0x08001b60     0x2  os_dbg.o [1]
+  .rodata            const    0x08001b62     0x2  os_dbg.o [1]
+  .rodata            const    0x08001b64     0x2  os_dbg.o [1]
+  .rodata            const    0x08001b66     0x2  os_dbg.o [1]
+  .rodata            const    0x08001b68     0x2  os_dbg.o [1]
+  .rodata            const    0x08001b6a     0x2  os_dbg.o [1]
+  .rodata            const    0x08001b6c     0x2  os_dbg.o [1]
+  .rodata            const    0x08001b6e     0x2  os_dbg.o [1]
+  .rodata            const    0x08001b70     0x2  os_dbg.o [1]
+  .rodata            const    0x08001b72     0x2  os_dbg.o [1]
+  .rodata            const    0x08001b74     0x2  os_dbg.o [1]
+  .rodata            const    0x08001b76     0x2  os_dbg.o [1]
+  .rodata            const    0x08001b78     0x2  os_dbg.o [1]
+  .rodata            const    0x08001b7a     0x2  os_dbg.o [1]
+  .rodata            const    0x08001b7c     0x2  os_dbg.o [1]
+  .rodata            const    0x08001b7e     0x2  os_dbg.o [1]
+  .rodata            const    0x08001b80     0x2  os_dbg.o [1]
+  .rodata            const    0x08001b82     0x2  os_dbg.o [1]
+  .rodata            const    0x08001b84     0x2  os_dbg.o [1]
+  .rodata            const    0x08001b86     0x2  os_dbg.o [1]
+  .rodata            const    0x08001b88     0x2  os_dbg.o [1]
+  .rodata            const    0x08001b8a     0x2  os_dbg.o [1]
+  .rodata            const    0x08001b8c     0x2  os_dbg.o [1]
+  .rodata            const    0x08001b8e     0x2  os_dbg.o [1]
+  .rodata            const    0x08001b90     0x2  os_dbg.o [1]
+  .rodata            const    0x08001b92     0x2  os_dbg.o [1]
+  .rodata            const    0x08001b94     0x2  os_dbg.o [1]
+  .rodata            const    0x08001b96     0x2  os_dbg.o [1]
+  .rodata            const    0x08001b98     0x2  os_dbg.o [1]
+  .rodata            const    0x08001b9a     0x2  os_dbg.o [1]
+  .rodata            const    0x08001b9c     0x2  os_dbg.o [1]
+  .rodata            const    0x08001b9e     0x2  os_dbg.o [1]
+  .rodata            const    0x08001ba0     0x2  os_dbg.o [1]
+  .rodata            const    0x08001ba2     0x2  os_dbg.o [1]
+  .rodata            const    0x08001ba4     0x2  os_dbg.o [1]
+  .rodata            const    0x08001ba6     0x2  os_dbg.o [1]
+  .rodata            const    0x08001ba8     0x2  os_dbg.o [1]
+  .rodata            const    0x08001baa     0x2  os_dbg.o [1]
+  .rodata            const    0x08001bac     0x2  os_dbg.o [1]
+  .rodata            const    0x08001bae     0x0  zero_init3.o [5]
+  .rodata            const    0x08001bae     0x0  copy_init3.o [5]
+  Initializer bytes  ro data  0x08001bb0    0x24  <for P2 s0>
+                            - 0x08001bd4  0x1a4c
+
+"P2", part 1 of 3:                          0x24
+  P2 s0                       0x20000000    0x24  <Init block>
+    .data            inited   0x20000000    0x20  stm32f3_discovery.o [1]
+    .data            inited   0x20000020     0x4  system_stm32f30x.o [1]
+                            - 0x20000024    0x24
+
+"P2", part 2 of 3:                        0x1174
+  .bss               zero     0x20000024   0x7e8  os_core.o [1]
+  .bss               zero     0x2000080c   0x200  os_core.o [1]
+  .bss               zero     0x20000a0c   0x200  os_core.o [1]
+  .bss               zero     0x20000c0c   0x140  os_core.o [1]
+  .bss               zero     0x20000d4c   0x100  main.o [1]
+  .bss               zero     0x20000e4c   0x100  main.o [1]
+  .bss               zero     0x20000f4c   0x100  main.o [1]
+  .bss               zero     0x2000104c    0x8c  os_core.o [1]
+  .bss               zero     0x200010d8    0x80  os_core.o [1]
+  .bss               zero     0x20001158     0x4  main.o [1]
+  .bss               zero     0x2000115c     0x4  os_core.o [1]
+  .bss               zero     0x20001160     0x4  os_core.o [1]
+  .bss               zero     0x20001164     0x4  os_core.o [1]
+  .bss               zero     0x20001168     0x4  os_core.o [1]
+  .bss               zero     0x2000116c     0x4  os_core.o [1]
+  .bss               zero     0x20001170     0x4  os_core.o [1]
+  .bss               zero     0x20001174     0x4  os_core.o [1]
+  .bss               zero     0x20001178     0x4  os_core.o [1]
+  .bss               zero     0x2000117c     0x4  os_core.o [1]
+  .bss               zero     0x20001180     0x4  os_core.o [1]
+  .bss               zero     0x20001184     0x4  os_core.o [1]
+  .bss               zero     0x20001188     0x4  os_core.o [1]
+  .bss               zero     0x2000118c     0x1  os_core.o [1]
+  .bss               zero     0x2000118d     0x1  os_core.o [1]
+  .bss               zero     0x2000118e     0x1  os_core.o [1]
+  .bss               zero     0x2000118f     0x1  os_core.o [1]
+  .bss               zero     0x20001190     0x1  os_core.o [1]
+  .bss               zero     0x20001191     0x1  os_core.o [1]
+  .bss               zero     0x20001192     0x1  os_core.o [1]
+  .bss               zero     0x20001193     0x1  os_core.o [1]
+  .bss               zero     0x20001194     0x1  os_core.o [1]
+  .bss               zero     0x20001195     0x1  os_core.o [1]
+                            - 0x20001196  0x1172
+
+"P2", part 3 of 3:                         0x400
+  CSTACK                      0x20001198   0x400  <Block>
+    CSTACK           uninit   0x20001198   0x400  <Block tail>
+                            - 0x20001598   0x400
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x1172:
+          0x20000024  0x1172
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x24:
+          0x08001bb0    0x24
+    1 destination range, total size 0x24:
+          0x20000000    0x24
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module               ro code  ro data  rw data
+    ------               -------  -------  -------
+C:\sw\STM32F303VC\Git_Repo\ST_discovery\STM32F3-Discovery_FW_V1.1.0\STM32F3-Discovery_FW_V1.1.0\Project\Peripheral_Examples\SysTick_Example\EWARM\SysTick\Obj: [1]
+    main.o                   400               772
+    os_core.o              2 096      288    3 694
+    os_cpu_a.o               160
+    os_cpu_c.o               184
+    os_dbg.o                 364       92
+    os_flag.o                138
+    os_sem.o                  96
+    os_task.o              1 340
+    os_time.o                252
+    startup_stm32f30x.o      672
+    stm32f30x_gpio.o         168
+    stm32f30x_it.o            14
+    stm32f30x_rcc.o           36
+    stm32f3_discovery.o      120       80       32
+    system_stm32f30x.o       356        4        4
+    ----------------------------------------------
+    Total:                 6 396      464    4 502
+
+command line: [2]
+    ----------------------------------------------
+    Total:
+
+dl7M_tln.a: [3]
+    exit.o                     4
+    low_level_init.o           4
+    ----------------------------------------------
+    Total:                     8
+
+m7M_tlv.a: [4]
+    fpinit_M.o                26
+    ----------------------------------------------
+    Total:                    26
+
+rt7M_tl.a: [5]
+    cexit.o                   10
+    cmain.o                   26
+    copy_init3.o              46
+    cstartup_M.o              12
+    data_init.o               40
+    zero_init3.o              34
+    ----------------------------------------------
+    Total:                   168
+
+shb_l.a: [6]
+    exit.o                    20
+    ----------------------------------------------
+    Total:                    20
+
+    Gaps                                4
+    Linker created                     38    1 024
+--------------------------------------------------
+    Grand Total:           6 618      506    5 526
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                     Address   Size  Type      Object
+-----                     -------   ----  ----      ------
+?main                  0x080019c1         Code  Gb  cmain.o [5]
+BusFault_Handler       0x0800197b    0x2  Code  Gb  stm32f30x_it.o [1]
+CSTACK$$Base           0x20001198          --   Gb  - Linker created -
+CSTACK$$Limit          0x20001598          --   Gb  - Linker created -
+DebugMon_Handler       0x08001981    0x2  Code  Gb  stm32f30x_it.o [1]
+GPIO_CLK               0x08001984   0x20  Data  Gb  stm32f3_discovery.o [1]
+GPIO_Init              0x080015f9   0xa8  Code  Gb  stm32f30x_gpio.o [1]
+GPIO_PIN               0x08001a24   0x10  Data  Gb  stm32f3_discovery.o [1]
+GPIO_PORT              0x20000000   0x20  Data  Gb  stm32f3_discovery.o [1]
+HardFault_Handler      0x08001977    0x2  Code  Gb  stm32f30x_it.o [1]
+LED1_TASK_STK          0x20000e4c  0x100  Data  Gb  main.o [1]
+LED2_TASK_STK          0x20000f4c  0x100  Data  Gb  main.o [1]
+LED_Init               0x080013c3   0x34  Code  Gb  main.o [1]
+MemManage_Handler      0x08001979    0x2  Code  Gb  stm32f30x_it.o [1]
+NMI_Handler            0x08001975    0x2  Code  Gb  stm32f30x_it.o [1]
+NVIC_SetPriority       0x0800136d   0x26  Code  Lc  main.o [1]
+OSCPUUsage             0x2000118c    0x1  Data  Gb  os_core.o [1]
+OSCtxSw                0x08000cbf         Code  Gb  os_cpu_a.o [1]
+OSCtxSwCtr             0x2000115c    0x4  Data  Gb  os_core.o [1]
+OSDataSize             0x08001bac    0x2  Data  Gb  os_dbg.o [1]
+OSDebugEn              0x080019be    0x2  Data  Gb  os_dbg.o [1]
+OSDebugInit            0x08000b29  0x16c  Code  Gb  os_dbg.o [1]
+OSEndiannessTest       0x08001a50    0x4  Data  Gb  os_dbg.o [1]
+OSEventEn              0x08001b5c    0x2  Data  Gb  os_dbg.o [1]
+OSEventFreeList        0x20001160    0x4  Data  Gb  os_core.o [1]
+OSEventMax             0x080019e2    0x2  Data  Gb  os_dbg.o [1]
+OSEventNameSize        0x080019ee    0x2  Data  Gb  os_dbg.o [1]
+OSEventSize            0x08001b5e    0x2  Data  Gb  os_dbg.o [1]
+OSEventTbl             0x20000c0c  0x140  Data  Gb  os_core.o [1]
+OSEventTblSize         0x08001b60    0x2  Data  Gb  os_dbg.o [1]
+OSFlagEn               0x08001b62    0x2  Data  Gb  os_dbg.o [1]
+OSFlagFreeList         0x20001164    0x4  Data  Gb  os_core.o [1]
+OSFlagGrpSize          0x08001b64    0x2  Data  Gb  os_dbg.o [1]
+OSFlagMax              0x08001b6a    0x2  Data  Gb  os_dbg.o [1]
+OSFlagNameSize         0x08001b6c    0x2  Data  Gb  os_dbg.o [1]
+OSFlagNodeSize         0x08001b66    0x2  Data  Gb  os_dbg.o [1]
+OSFlagTbl              0x2000104c   0x8c  Data  Gb  os_core.o [1]
+OSFlagWidth            0x08001b68    0x2  Data  Gb  os_dbg.o [1]
+OSIdleCtr              0x20001174    0x4  Data  Gb  os_core.o [1]
+OSIdleCtrMax           0x20001168    0x4  Data  Gb  os_core.o [1]
+OSIdleCtrRun           0x2000116c    0x4  Data  Gb  os_core.o [1]
+OSInit                 0x08000189   0x2c  Code  Gb  os_core.o [1]
+OSInitHookBegin        0x080009b9    0x2  Code  Gb  os_cpu_c.o [1]
+OSInitHookEnd          0x080009bb    0x2  Code  Gb  os_cpu_c.o [1]
+OSIntCtxSw             0x08000cc7         Code  Gb  os_cpu_a.o [1]
+OSIntExit              0x080001b5   0x94  Code  Gb  os_core.o [1]
+OSIntNesting           0x2000118e    0x1  Data  Gb  os_core.o [1]
+OSLockNesting          0x2000118f    0x1  Data  Gb  os_core.o [1]
+OSLowestPrio           0x08001b6e    0x2  Data  Gb  os_dbg.o [1]
+OSMboxEn               0x08001b70    0x2  Data  Gb  os_dbg.o [1]
+OSMemEn                0x08001b72    0x2  Data  Gb  os_dbg.o [1]
+OSMemMax               0x08001b74    0x2  Data  Gb  os_dbg.o [1]
+OSMemNameSize          0x08001b76    0x2  Data  Gb  os_dbg.o [1]
+OSMemSize              0x08001b78    0x2  Data  Gb  os_dbg.o [1]
+OSMemTblSize           0x08001b7a    0x2  Data  Gb  os_dbg.o [1]
+OSMutexEn              0x08001b7c    0x2  Data  Gb  os_dbg.o [1]
+OSPrioCur              0x20001190    0x1  Data  Gb  os_core.o [1]
+OSPrioHighRdy          0x20001191    0x1  Data  Gb  os_core.o [1]
+OSPtrSize              0x08001b7e    0x2  Data  Gb  os_dbg.o [1]
+OSQEn                  0x08001b80    0x2  Data  Gb  os_dbg.o [1]
+OSQMax                 0x08001b82    0x2  Data  Gb  os_dbg.o [1]
+OSQSize                0x08001b84    0x2  Data  Gb  os_dbg.o [1]
+OSRdyGrp               0x20001192    0x1  Data  Gb  os_core.o [1]
+OSRdyTbl               0x20001170    0x4  Data  Gb  os_core.o [1]
+OSRdyTblSize           0x08001b86    0x2  Data  Gb  os_dbg.o [1]
+OSRunning              0x20001193    0x1  Data  Gb  os_core.o [1]
+OSSemCreate            0x08001575   0x56  Code  Gb  os_sem.o [1]
+OSSemEn                0x08001b88    0x2  Data  Gb  os_dbg.o [1]
+OSStart                0x08000249   0x42  Code  Gb  os_core.o [1]
+OSStartHighRdy         0x08000ca3         Code  Gb  os_cpu_a.o [1]
+OSStatInit             0x0800028b   0x46  Code  Gb  os_core.o [1]
+OSStatRdy              0x2000118d    0x1  Data  Gb  os_core.o [1]
+OSStkWidth             0x08001b8a    0x2  Data  Gb  os_dbg.o [1]
+OSTCBCur               0x20001178    0x4  Data  Gb  os_core.o [1]
+OSTCBFreeList          0x2000117c    0x4  Data  Gb  os_core.o [1]
+OSTCBHighRdy           0x20001180    0x4  Data  Gb  os_core.o [1]
+OSTCBInitHook          0x08000a47    0x2  Code  Gb  os_cpu_c.o [1]
+OSTCBList              0x20001184    0x4  Data  Gb  os_core.o [1]
+OSTCBPrioTbl           0x200010d8   0x80  Data  Gb  os_core.o [1]
+OSTCBPrioTblMax        0x08001ba2    0x2  Data  Gb  os_dbg.o [1]
+OSTCBSize              0x08001ba4    0x2  Data  Gb  os_dbg.o [1]
+OSTCBTbl               0x20000024  0x7e8  Data  Gb  os_core.o [1]
+OSTaskCreate           0x08000e31   0xbc  Code  Gb  os_task.o [1]
+OSTaskCreateEn         0x08001b8c    0x2  Data  Gb  os_dbg.o [1]
+OSTaskCreateExt        0x08000eed   0xd8  Code  Gb  os_task.o [1]
+OSTaskCreateExtEn      0x08001b8e    0x2  Data  Gb  os_dbg.o [1]
+OSTaskCreateHook       0x080009bd    0x2  Code  Gb  os_cpu_c.o [1]
+OSTaskCtr              0x20001194    0x1  Data  Gb  os_core.o [1]
+OSTaskDel              0x08000fc5  0x186  Code  Gb  os_task.o [1]
+OSTaskDelEn            0x08001b90    0x2  Data  Gb  os_dbg.o [1]
+OSTaskDelHook          0x080009bf    0x2  Code  Gb  os_cpu_c.o [1]
+OSTaskIdleHook         0x080009c1    0x2  Code  Gb  os_cpu_c.o [1]
+OSTaskIdleStk          0x20000a0c  0x200  Data  Gb  os_core.o [1]
+OSTaskIdleStkSize      0x08001b92    0x2  Data  Gb  os_dbg.o [1]
+OSTaskMax              0x08001b96    0x2  Data  Gb  os_dbg.o [1]
+OSTaskNameSet          0x0800114b   0x94  Code  Gb  os_task.o [1]
+OSTaskNameSize         0x08001b98    0x2  Data  Gb  os_dbg.o [1]
+OSTaskProfileEn        0x08001b94    0x2  Data  Gb  os_dbg.o [1]
+OSTaskStatEn           0x08001b9a    0x2  Data  Gb  os_dbg.o [1]
+OSTaskStatHook         0x080009c3    0x2  Code  Gb  os_cpu_c.o [1]
+OSTaskStatStk          0x2000080c  0x200  Data  Gb  os_core.o [1]
+OSTaskStatStkChkEn     0x08001b9e    0x2  Data  Gb  os_dbg.o [1]
+OSTaskStatStkSize      0x08001b9c    0x2  Data  Gb  os_dbg.o [1]
+OSTaskStkChk           0x080011df   0x96  Code  Gb  os_task.o [1]
+OSTaskStkInit          0x080009c5   0x80  Code  Gb  os_cpu_c.o [1]
+OSTaskSuspend          0x08001275   0xb6  Code  Gb  os_task.o [1]
+OSTaskSwHook           0x08000a45    0x2  Code  Gb  os_cpu_c.o [1]
+OSTaskSwHookEn         0x08001ba0    0x2  Data  Gb  os_dbg.o [1]
+OSTickStepState        0x20001195    0x1  Data  Gb  os_core.o [1]
+OSTicksPerSec          0x08001ba6    0x2  Data  Gb  os_dbg.o [1]
+OSTime                 0x20001188    0x4  Data  Gb  os_core.o [1]
+OSTimeDly              0x08000d35   0x68  Code  Gb  os_time.o [1]
+OSTimeDlyHMSM          0x08000d9d   0x82  Code  Gb  os_time.o [1]
+OSTimeTick             0x080002d1   0xf6  Code  Gb  os_core.o [1]
+OSTimeTickHook         0x08000a49    0x2  Code  Gb  os_cpu_c.o [1]
+OSTimeTickHookEn       0x08001ba8    0x2  Data  Gb  os_dbg.o [1]
+OSUnMapTbl             0x08001804  0x100  Data  Gb  os_core.o [1]
+OSVersionNbr           0x08001baa    0x2  Data  Gb  os_dbg.o [1]
+OS_CPU_PendSVHandler   0x08000ccf         Code  Gb  os_cpu_a.o [1]
+OS_CPU_SR_Restore      0x08000c9d         Code  Gb  os_cpu_a.o [1]
+OS_CPU_SR_Save         0x08000c95         Code  Gb  os_cpu_a.o [1]
+OS_CPU_SysTickHandler  0x08000a4b   0x22  Code  Gb  os_cpu_c.o [1]
+OS_Dummy               0x080003c7    0x2  Code  Gb  os_core.o [1]
+OS_EventTaskRemove     0x080003c9   0x32  Code  Gb  os_core.o [1]
+OS_EventTaskRemoveMulti
+                       0x080003fb   0x4c  Code  Gb  os_core.o [1]
+OS_EventWaitListInit   0x08000447   0x20  Code  Gb  os_core.o [1]
+OS_FlagInit            0x08000a71   0x4a  Code  Gb  os_flag.o [1]
+OS_FlagUnlink          0x08000ac9   0x32  Code  Gb  os_flag.o [1]
+OS_InitEventList       0x08000467   0x56  Code  Lc  os_core.o [1]
+OS_InitMisc            0x080004bd   0x4e  Code  Lc  os_core.o [1]
+OS_InitRdyList         0x0800050b   0x44  Code  Lc  os_core.o [1]
+OS_InitTCBList         0x080005cb   0x66  Code  Lc  os_core.o [1]
+OS_InitTaskIdle        0x0800054f   0x3e  Code  Lc  os_core.o [1]
+OS_InitTaskStat        0x0800058d   0x3e  Code  Lc  os_core.o [1]
+OS_MemClr              0x08000631   0x12  Code  Gb  os_core.o [1]
+OS_Sched               0x08000643   0x5c  Code  Gb  os_core.o [1]
+OS_SchedNew            0x0800069f   0x20  Code  Lc  os_core.o [1]
+OS_StrCopy             0x080006bf   0x20  Code  Gb  os_core.o [1]
+OS_StrLen              0x080006df   0x16  Code  Gb  os_core.o [1]
+OS_TCBInit             0x080007e1  0x15c  Code  Gb  os_core.o [1]
+OS_TaskIdle            0x080006f9   0x22  Code  Gb  os_core.o [1]
+OS_TaskStat            0x0800071d   0x76  Code  Gb  os_core.o [1]
+OS_TaskStatStkChk      0x08000799   0x44  Code  Gb  os_core.o [1]
+OS_TaskStkClr          0x08001355   0x18  Code  Gb  os_task.o [1]
+RCC_AHBPeriphClockCmd  0x080015d5   0x1e  Code  Gb  stm32f30x_rcc.o [1]
+Region$$Table$$Base    0x08001950          --   Gb  - Linker created -
+Region$$Table$$Limit   0x08001974          --   Gb  - Linker created -
+STM_EVAL_LEDInit       0x080014fd   0x44  Code  Gb  stm32f3_discovery.o [1]
+STM_EVAL_LEDOff        0x08001555   0x14  Code  Gb  stm32f3_discovery.o [1]
+STM_EVAL_LEDOn         0x08001541   0x14  Code  Gb  stm32f3_discovery.o [1]
+SVC_Handler            0x0800197f    0x2  Code  Gb  stm32f30x_it.o [1]
+SetSysClock            0x08001717   0xc2  Code  Lc  system_stm32f30x.o [1]
+SysTick_Config         0x08001393   0x30  Code  Lc  main.o [1]
+SystemCoreClock        0x20000020    0x4  Data  Gb  system_stm32f30x.o [1]
+SystemInit             0x080016a1   0x76  Code  Gb  system_stm32f30x.o [1]
+UsageFault_Handler     0x0800197d    0x2  Code  Gb  stm32f30x_it.o [1]
+__cmain                0x080019c1         Code  Gb  cmain.o [5]
+__exit                 0x080019f1   0x14  Code  Gb  exit.o [6]
+__iar_copy_init3       0x08000afb   0x2e  Code  Gb  copy_init3.o [5]
+__iar_data_init3       0x08001905   0x28  Code  Gb  data_init.o [5]
+__iar_init_vfp         0x080019a5         Code  Gb  fpinit_M.o [4]
+__iar_program_start    0x08001a45         Code  Gb  cstartup_M.o [5]
+__iar_zero_init3       0x0800192d   0x22  Code  Gb  zero_init3.o [5]
+__low_level_init       0x080019db    0x4  Code  Gb  low_level_init.o [3]
+__vector_table         0x08000000         Data  Gb  startup_stm32f30x.o [1]
+_call_main             0x080019cd         Code  Gb  cmain.o [5]
+_exit                  0x080019e5         Code  Gb  cexit.o [5]
+_main                  0x080019d7         Code  Gb  cmain.o [5]
+exit                   0x080019df    0x4  Code  Gb  exit.o [3]
+led1_task              0x0800145d   0x28  Code  Gb  main.o [1]
+led2_task              0x08001485   0x2c  Code  Gb  main.o [1]
+main                   0x080014b1   0x1e  Code  Gb  main.o [1]
+os_semaphore           0x20001158    0x4  Data  Gb  main.o [1]
+startup_task           0x080013f7   0x66  Code  Lc  main.o [1]
+startup_task_stk       0x20000d4c  0x100  Data  Gb  main.o [1]
+
+
+[1] = C:\sw\STM32F303VC\Git_Repo\ST_discovery\STM32F3-Discovery_FW_V1.1.0\STM32F3-Discovery_FW_V1.1.0\Project\Peripheral_Examples\SysTick_Example\EWARM\SysTick\Obj
+[2] = command line
+[3] = dl7M_tln.a
+[4] = m7M_tlv.a
+[5] = rt7M_tl.a
+[6] = shb_l.a
+
+  6 618 bytes of readonly  code memory
+    506 bytes of readonly  data memory
+  5 526 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
